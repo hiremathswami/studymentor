@@ -4,57 +4,29 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6366F1?style=for-the-badge&logoColor=white)](https://github.com/hiremathswami/studymentor)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6366F1?style=for-the-badge&logoColor=white)](https://studymentor.ai)
 [![GitHub Stars](https://img.shields.io/github/stars/hiremathswami/studymentor?style=for-the-badge&color=F59E0B&logo=github)](https://github.com/hiremathswami/studymentor/stargazers)
-[![Claude API](https://img.shields.io/badge/Powered_by-Claude_API-D97706?style=for-the-badge&logoColor=white)](https://anthropic.com)
-[![JavaScript](https://img.shields.io/badge/JavaScript-72.1%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](.)
-[![CSS](https://img.shields.io/badge/CSS-27.4%25-1572B6?style=for-the-badge&logo=css3)](.)
+[![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
+[![Made with Claude](https://img.shields.io/badge/Powered_by-Claude_API-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
 
 <br/>
 
 > **"The AI tutor every student deserves — but couldn't afford. Until now."**
 
-</div>
+<br/>
 
----
-
-## 🖼️ Screenshots
-
-<div align="center">
-
-### 🏠 Homepage
-![Homepage](web%20application/stitch/projects/14750634141614937933/screens/9e4b402d96d24129bb978058bc06ffa1)
-
----
-
-### 📊 Dashboard
-![Dashboard](web%20application/stitch/projects/14750634141614937933/screens/5d2400bfc18f41bf82a8ce85a5e6c5e9)
-
----
-
-### 📋 Study Plan
-![Study Plan](<img width="1920" height="1140" alt="Screenshot 2026-05-09 174658" src="https://github.com/user-attachments/assets/d09e7db7-4cd0-4a2e-8e86-712062edab03" />
-)
-
----
-
-### 📈 Analytics
-![Analytics](web application/stitch/projects/14750634141614937933/screens/5d2400bfc18f41bf82a8ce85a5e6c5e9)
-
----
-
-### 💡 AI Tutor
-![AI Tutor](web application/stitch/projects/14750634141614937933/screens/9e4b402d96d24129bb978058bc06ffa1)
+![Dashboard Preview](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboard.png)
 
 </div>
-
 ---
 
 ## ✨ What is StudyMentor AI?
 
-**StudyMentor AI** is a full-stack AI-powered study companion that acts as your personal tutor, planner, and accountability coach — all in one place.
+**StudyMentor AI** is a full-stack AI-powered study companion that acts as your personal tutor, planner, and accountability coach — all in one app.
 
-Most students fail not because they're lazy, but because they have **no structured plan**, **no instant help** when stuck, and **no feedback loop** to confirm they actually learned something. StudyMentor AI fixes all three.
+Most students fail not because they're lazy, but because they have **no structured plan**, **no instant help** when stuck, and **no feedback loop** to know if they actually learned something.
+
+StudyMentor AI fixes all three.
 
 ---
 
@@ -64,42 +36,42 @@ Most students fail not because they're lazy, but because they have **no structur
 <tr>
 <td width="50%">
 
-### 🏠 Smart Landing Page
-A guided homepage with an AI chatbot that tours the platform and answers questions — before the student even signs up.
-
-</td>
-<td width="50%">
-
 ### 📋 Personalized Study Plans
-Claude AI builds a complete multi-week study roadmap based on your subject, goals, level, and available hours. Export PDF, edit, or regenerate anytime.
+Claude AI analyzes your subject, goals, level, and available hours — then builds a complete multi-week study roadmap tailored just for you.
+
+</td>
+<td width="50%">
+
+### ✅ Daily AI Task Assignment
+Every morning, 4 laser-focused tasks are generated based on exactly where you are in your plan. Cached so they load instantly.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### ✅ Daily AI Tasks
-Focused tasks generated every morning based on exactly where you are in your plan. Filter by All, Pending, or Completed.
+### 🧠 Assignment Quiz After Every Task
+Complete a task → Claude generates 10 MCQ questions on that topic. **Score 8/10 to pass.** Fail? The task auto-retasks tomorrow with fresh questions.
 
 </td>
-<td width="50%">
-
-### 🧠 Assignment Quiz System
-Complete a task → Claude generates **10 MCQ questions** on that topic. Score **8/10 to pass**. Fail? Task auto-retasks tomorrow with fresh questions.
-
-</td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 💡 AI Concept Explainer
-Ask anything at 4 levels — ELI5, Beginner, Intermediate, Expert. Upload a photo of your notes or a PDF — Claude reads and explains it with structured responses including summary, analogy, and key points.
+Ask anything. Choose your level — ELI5, Beginner, Intermediate, or Expert. Upload a photo of your notes or a PDF — Claude explains it instantly.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 Progress & Streak Tracking
+Streak calendar, quiz score chart with pass line, activity graph, and a weekly AI-generated summary. Claude keeps you accountable.
 
 </td>
 <td width="50%">
 
-### 📊 Deep Analytics
-Streak calendar, quiz score chart with pass line, activity heatmap, strength/weakness detection, AI Mentor insight summaries, and achievement badges.
+### 🔄 Smart Retask System
+Scored below 8/10? The system marks the task as failed, inserts it into tomorrow's plan automatically, and generates brand-new questions.
 
 </td>
 </tr>
@@ -115,49 +87,68 @@ Streak calendar, quiz score chart with pass line, activity heatmap, strength/wea
 |-------|-----------|
 | 🎨 **Frontend** | React.js + CSS |
 | ⚡ **Backend** | Node.js + Express.js |
-| 🤖 **AI Engine** | Anthropic Claude API |
+| 🤖 **AI Engine** | Anthropic Claude API (`claude-sonnet-4-20250514`) |
 | 🗄️ **Database** | Supabase (PostgreSQL + Auth) |
 | 💳 **Payments** | Switch |
 | 📁 **File Upload** | Multer + Claude Vision API |
-| 🚀 **Deploy** | Vercel + Railway |
+| 🚀 **Deploy** | Vercel / Railway |
 
 </div>
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+| Dashboard | AI Tutor | Assignment Quiz |
+|-----------|----------|-----------------|
+| ![Dashboard](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboard.png) | ![AI Tutor](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/tutor.png) | ![Quiz](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/quiz.png) |
+
+| Study Plan | Progress | Upgrade |
+|------------|----------|---------|
+| ![Plan](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/plan.png) | ![Progress](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/progress.png) | ![Upgrade](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/upgrade.png) |
+
+| Stitch Study Plan (New) |
+|--------------------------|
+| ![Stitch Plan](/web application/stitch/projects/14750634141614937933/screens/5d2400bfc18f41bf82a8ce85a5e6c5e9.png) |
+
+</div>
+
 ## 🏗️ Project Structure
 
 ```
 studymentor/
-├── studymentor-web/              # React frontend
-│   └── src/
-│       ├── pages/
-│       │   ├── HomePage.jsx      # Landing + chatbot tour
-│       │   ├── Dashboard.jsx     # Daily tasks + stat cards
-│       │   ├── StudyPlan.jsx     # Week-by-week plan
-│       │   ├── AITutor.jsx       # Claude chat explainer
-│       │   ├── Analytics.jsx     # Progress + achievements
-│       │   └── Upgrade.jsx       # Switch pricing
-│       └── components/
+├── studymentor-web/          # React frontend
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── StudyPlan.jsx
+│   │   │   ├── AITutor.jsx
+│   │   │   ├── Analytics.jsx
+│   │   │   └── Upgrade.jsx
+│   │   ├── components/
+│   │   └── App.jsx
+│   └── public/
 │
-├── studymentor-api/              # Node.js + Express backend
-│   └── src/
-│       ├── routes/
-│       │   ├── auth.js           # Register & login
-│       │   ├── plan.js           # Study plan generation
-│       │   ├── tasks.js          # Daily task management
-│       │   ├── assignments.js    # Quiz generation + grading
-│       │   ├── explain.js        # AI explainer + file upload
-│       │   ├── progress.js       # Analytics & streaks
-│       │   └── billing.js        # Switch payments
-│       ├── middleware/
-│       │   ├── auth.js           # JWT verification
-│       │   └── planGate.js       # Free vs Pro gating
-│       └── lib/
-│           ├── claude.js         # Anthropic SDK wrapper
-│           └── supabase.js       # Database client
+├── studymentor-api/          # Node.js + Express backend
+│   ├── src/
+│   │   ├── routes/
+│   │   │   ├── auth.js       # Register & login
+│   │   │   ├── plan.js       # Claude study plan generation
+│   │   │   ├── tasks.js      # Daily task management
+│   │   │   ├── assignments.js # Quiz generation + grading
+│   │   │   ├── explain.js    # AI concept explainer + file upload
+│   │   │   ├── progress.js   # Analytics & streaks
+│   │   │   └── billing.js    # Switch payments
+│   │   ├── middleware/
+│   │   │   ├── auth.js       # JWT verification
+│   │   │   └── planGate.js   # Free vs Pro gating
+│   │   └── lib/
+│   │       ├── claude.js     # Anthropic SDK wrapper
+│   │       └── supabase.js   # Database client
+│   └── package.json
 │
-├── raw_screens/                  # App screenshots
 └── README.md
 ```
 
@@ -167,48 +158,65 @@ studymentor/
 
 ### Prerequisites
 - Node.js v18+
-- [Supabase](https://supabase.com) account
-- [Anthropic API key](https://console.anthropic.com)
+- Supabase account
+- Anthropic API key
 
-### 1. Clone
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/hiremathswami/studymentor.git
 cd studymentor
 ```
 
-### 2. Backend setup
+### 2. Setup the backend
 
 ```bash
 cd studymentor-api
 npm install
 cp .env.example .env
-# Fill in SUPABASE_URL, SUPABASE_SERVICE_KEY, ANTHROPIC_API_KEY
 ```
 
-### 3. Database
+Fill in your `.env`:
 
-Run `studymentor-api/database/schema.sql` in your Supabase SQL Editor.
+```env
+SUPABASE_URL=your_supabase_url
+SUPABASE_SERVICE_KEY=your_service_key
+ANTHROPIC_API_KEY=your_claude_api_key
+SWITCH_SECRET_KEY=your_switch_key
+PORT=3000
+```
+
+### 3. Setup the database
+
+Go to your Supabase SQL Editor and run:
+
+```sql
+-- Users, study plans, daily tasks, progress logs,
+-- explanations, and assignments tables
+-- Full schema in /studymentor-api/database/schema.sql
+```
 
 ### 4. Seed demo data
 
 ```bash
 node src/seed.js
-# ✅ Login: demo@studymentor.ai / demo1234
+# ✅ Demo ready: demo@studymentor.ai / demo1234
 ```
 
-### 5. Start backend
+### 5. Start the backend
 
 ```bash
-npm run dev   # http://localhost:3000
+npm run dev
+# 🚀 API running on http://localhost:3000
 ```
 
-### 6. Frontend setup
+### 6. Setup and start the frontend
 
 ```bash
 cd ../studymentor-web
 npm install
-npm run dev   # http://localhost:5173
+npm run dev
+# 🎓 App running on http://localhost:5173
 ```
 
 ---
@@ -216,90 +224,101 @@ npm run dev   # http://localhost:5173
 ## 🔌 API Endpoints
 
 <details>
-<summary><b>👤 Auth</b></summary>
+<summary><b>📋 Auth Routes</b></summary>
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/auth/register` | Create account |
-| `POST` | `/api/auth/login` | Login → JWT token |
-
-</details>
-
-<details>
-<summary><b>📚 Study Plan</b></summary>
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/plan/generate` | Claude generates plan |
-| `GET` | `/api/plan` | Fetch current plan |
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `POST` | `/api/auth/register` | ❌ | Create new account |
+| `POST` | `/api/auth/login` | ❌ | Login — returns JWT token |
 
 </details>
 
 <details>
-<summary><b>✅ Tasks</b></summary>
+<summary><b>📚 Study Plan Routes</b></summary>
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/tasks/today` | Today's AI tasks |
-| `POST` | `/api/tasks/complete` | Complete task → triggers quiz |
-
-</details>
-
-<details>
-<summary><b>🧠 Assignments</b></summary>
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/assignments/generate` | Generate 10 MCQs |
-| `POST` | `/api/assignments/submit` | Grade → pass/fail/retask |
-| `GET` | `/api/assignments/:id` | Get quiz questions |
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `POST` | `/api/plan/generate` | ✅ | Claude generates personalized plan |
+| `GET` | `/api/plan` | ✅ | Fetch current study plan |
 
 </details>
 
 <details>
-<summary><b>💡 AI Tutor</b></summary>
+<summary><b>✅ Task Routes</b></summary>
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/explain` | Explain any concept |
-| `POST` | `/api/explain` + file | Photo/PDF upload (Pro) |
-
-</details>
-
-<details>
-<summary><b>📊 Analytics</b></summary>
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/progress` | Stats + AI insight |
-| `GET` | `/api/progress/streak` | Streak count |
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `GET` | `/api/tasks/today` | ✅ | Get today's 4 AI tasks |
+| `POST` | `/api/tasks/complete` | ✅ | Mark task complete → triggers quiz |
 
 </details>
 
 <details>
-<summary><b>💳 Billing</b></summary>
+<summary><b>🧠 Assignment Routes</b></summary>
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/billing/checkout` | Switch checkout |
-| `POST` | `/api/billing/webhook` | Payment webhook |
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `POST` | `/api/assignments/generate` | ✅ | Claude generates 10 MCQs |
+| `POST` | `/api/assignments/submit` | ✅ | Grade answers → pass/fail/retask |
+| `GET` | `/api/assignments/:id` | ✅ | Get quiz (without correct answers) |
+
+</details>
+
+<details>
+<summary><b>💡 Explain Routes</b></summary>
+
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `POST` | `/api/explain` | ✅ | Claude explains any concept |
+| `POST` | `/api/explain` (with file) | ✅ Pro | Upload photo or PDF — Claude reads it |
+
+</details>
+
+<details>
+<summary><b>📊 Progress Routes</b></summary>
+
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `GET` | `/api/progress` | ✅ | Stats + logs + Claude summary |
+| `GET` | `/api/progress/streak` | ✅ | Current streak count |
+
+</details>
+
+<details>
+<summary><b>💳 Billing Routes</b></summary>
+
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `POST` | `/api/billing/checkout` | ✅ | Start Switch checkout |
+| `POST` | `/api/billing/webhook` | ❌ | Switch calls this on payment |
+
+</details>
+
+<details>
+<summary><b>🛠 Dev Routes</b></summary>
+
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `GET` | `/health` | ❌ | Server health check |
+| `GET` | `/api/demo/reset` | ❌ | Reset demo data (dev only) |
 
 </details>
 
 ---
 
-## 💰 Pricing
+## 💰 Pricing Tiers
 
 <div align="center">
 
-| | Free | Pro ($9/mo) | Team ($29/mo) |
-|--|------|-------------|---------------|
+| | Free | Student Pro | Team |
+|--|------|------------|------|
+| **Price** | $0/mo | $9/mo | $29/mo |
 | Study plans | 1 | ✅ Unlimited | ✅ Unlimited |
-| AI explanations | 5/mo | ✅ Unlimited | ✅ Unlimited |
-| Assignment quizzes | 5/mo | ✅ Unlimited | ✅ Unlimited |
+| AI explanations | 5/month | ✅ Unlimited | ✅ Unlimited |
+| Assignments | 5/month | ✅ Unlimited | ✅ Unlimited |
 | File + photo upload | ❌ | ✅ | ✅ |
-| PDF export | ❌ | ✅ | ✅ |
-| Seats | 1 | 1 | 10 |
+| Adaptive re-planning | ❌ | ✅ | ✅ |
+| Student seats | 1 | 1 | 10 |
 | Teacher dashboard | ❌ | ❌ | ✅ |
 
 </div>
@@ -308,22 +327,39 @@ npm run dev   # http://localhost:5173
 
 ## 🗺️ Roadmap
 
-- [x] Landing page with AI chatbot tour
-- [x] Authentication (login / register)
-- [x] AI study plan generation
-- [x] Daily task assignment
-- [x] Assignment quiz + 8/10 pass rule
-- [x] Smart retask on failure
-- [x] AI Tutor with 4 difficulty levels
+- [x] Personalized study plan generation
+- [x] Daily AI task assignment
+- [x] Assignment quiz with retask system
+- [x] AI concept explainer
 - [x] File + photo upload (Claude Vision)
-- [x] Deep analytics + streak calendar
-- [x] AI Mentor insight summaries
-- [x] Achievement badges
-- [x] Switch payments
-- [ ] Voice study mentor
-- [ ] Mobile app (React Native)
+- [x] Progress tracking + streak calendar
+- [x] Switch payment integration
+- [ ] Voice study mentor (speak your doubt)
 - [ ] Emotion detection while studying
+- [ ] Mobile app (React Native)
+- [ ] College syllabus integration
 - [ ] Smart exam prediction
+- [ ] AI career mentor
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+```bash
+# 1. Fork the repo
+# 2. Create your feature branch
+git checkout -b feature/amazing-feature
+
+# 3. Commit your changes
+git commit -m 'Add amazing feature'
+
+# 4. Push to the branch
+git push origin feature/amazing-feature
+
+# 5. Open a Pull Request
+```
 
 ---
 
@@ -333,10 +369,10 @@ npm run dev   # http://localhost:5173
 
 **Rohan Hiremathswami**
 
-*Learning AI APIs and vibe coding — building real products along the way.*
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/hiremathswami)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/hiremathswami)
+
+*Learning AI APIs and vibe coding — building real projects along the way.*
 
 </div>
 
@@ -344,14 +380,14 @@ npm run dev   # http://localhost:5173
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**⭐ If this project helped you, please star it — it means a lot!**
+**If this helped you, please give it a ⭐ — it means a lot!**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Built+with+%E2%9D%A4%EF%B8%8F+and+Claude+AI;Learning+in+public.+Building+in+public." alt="footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Built+with+❤️+and+Claude+AI;Learning+in+public.+Building+in+public." alt="footer" />
 
 </div>
