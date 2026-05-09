@@ -4,7 +4,6 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🎓+StudyMentor+AI;Your+Personal+AI+Study+Coach;Built+with+Claude+API" alt="StudyMentor AI" />
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6366F1?style=for-the-badge&logoColor=white)](https://studymentor.ai)
 [![GitHub Stars](https://img.shields.io/github/stars/hiremathswami/studymentor?style=for-the-badge&color=F59E0B&logo=github)](https://github.com/hiremathswami/studymentor/stargazers)
