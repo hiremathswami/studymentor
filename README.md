@@ -388,7 +388,7 @@ git push origin feature/amazing-feature
 
 **Rohan Hiremathswami**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/hiremathswami)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rohan-hiremathswami/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/hiremathswami)
 
 *Learning AI APIs and vibe coding — building real projects along the way.*
@@ -399,7 +399,6 @@ git push origin feature/amazing-feature
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -407,6 +406,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 **If this helped you, please give it a ⭐ — it means a lot!**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Built+with+❤️+and+Claude+AI;Learning+in+public.+Building+in+public." alt="footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Built+with+%E2%9D%A4%EF%B8%8F+and+Claude+AI;Learning+in+public.+Building+in+public." alt="footer" />
+
 
 </div>
