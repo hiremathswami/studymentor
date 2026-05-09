@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hiremathswami/studymentor/main/studymentor-web/public/favicon.svg" alt="StudyMentor Logo" width="80" height="80" />
 
-<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🎓+StudyMentor+AI;Your+Personal+AI+Study+Coach;Built+with+Claude+API" alt="StudyMentor AI" />
+<img src="blob:https://gemini.google.com/97d703db-0063-40dc-bc32-6d991338ac3b" alt="StudyMentor AI" />
 
 <br/>
 
