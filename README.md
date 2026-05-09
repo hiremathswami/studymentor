@@ -15,7 +15,7 @@
 
 <br/>
 
-![Dashboard Preview](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboard.png)
+![Dashboard Preview](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboard.png.png)
 
 </div>
 ---
@@ -103,15 +103,15 @@ Scored below 8/10? The system marks the task as failed, inserts it into tomorrow
 
 | Dashboard | AI Tutor | Assignment Quiz |
 |-----------|----------|-----------------|
-| ![Dashboard](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboard.png) | ![AI Tutor](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/tutor.png) | ![Quiz](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/quiz.png) |
+| ![Dashboard](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboard.png.png) | ![AI Tutor](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/tutor.png) | ![Quiz](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/dashboards.png.png) |
 
 | Study Plan | Progress | Upgrade |
 |------------|----------|---------|
-| ![Plan](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/plan.png) | ![Progress](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/progress.png) | ![Upgrade](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/upgrade.png) |
+| ![Plan](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/plan.png.png) | ![Progress](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/progress.png) | ![Upgrade](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/upgrade.png) |
 
 | Stitch Study Plan (New) |
 |--------------------------|
-| ![Stitch Plan](/web application/stitch/projects/14750634141614937933/screens/5d2400bfc18f41bf82a8ce85a5e6c5e9.png) |
+| ![Stitch Plan](https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/plan.png.png) |
 
 </div>
 
