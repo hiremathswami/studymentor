@@ -35,7 +35,7 @@ StudyMentor AI fixes all three.
 > **No signup required for the demo!** Experience StudyMentor AI instantly:
 
 ### Option 1: Visit the Live App
-👉 **[Click here to access StudyMentor AI](https://studymentor.ai)** - Fully functional demo with all features
+👉 **[Click here to access StudyMentor AI](https://studymentor.vercel.app/)** - Fully functional demo with all features
 
 ### Option 2: Local Development
 Want to run it locally? Follow the [Quick Start](#-quick-start) guide below to set up the entire stack on your machine.
