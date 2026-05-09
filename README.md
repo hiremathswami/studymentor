@@ -5,9 +5,8 @@
 <br/>
 
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6366F1?style=for-the-badge&logoColor=white)](https://studymentor.ai)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6366F1?style=for-the-badge&logoColor=white)](https://studymentor.vercel.app/)
 [![GitHub Stars](https://img.shields.io/github/stars/hiremathswami/studymentor?style=for-the-badge&color=F59E0B&logo=github)](https://github.com/hiremathswami/studymentor/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 [![Made with Claude](https://img.shields.io/badge/Powered_by-Claude_API-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
 
 <br/>
