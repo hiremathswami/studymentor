@@ -4,7 +4,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
 
 export default function Navbar() {
-  const { user, logout } = useAuth();
+  const { user, logout, isDemoMode } = useAuth();
   const { theme, toggleTheme } = useTheme();
   const [showUserMenu, setShowUserMenu] = useState(false);
 
@@ -22,6 +22,11 @@ export default function Navbar() {
           <div className="nav-logo-icon">S</div>
           <span>StudyMentor AI</span>
         </Link>
+        {isDemoMode && (
+          <div style={{ marginLeft: '16px', padding: '8px 12px', borderRadius: '999px', background: 'rgba(59,130,246,0.12)', color: '#1D4ED8', fontSize: '12px', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+            🎓 Demo Mode — No real API calls are made.
+          </div>
+        )}
         <div className="nav-links">
           {navItems.map(item => (
             <NavLink

@@ -5,10 +5,10 @@ import { useToast } from '../contexts/ToastContext';
 
 export default function Login() {
   const [email, setEmail] = useState('demo@student.edu');
-  const [password, setPassword] = useState('password123');
+  const [password, setPassword] = useState('demo123');
   const [loading, setLoading] = useState(false);
   
-  const { login } = useAuth();
+  const { login, isDemoMode } = useAuth();
   const { showToast } = useToast();
   const navigate = useNavigate();
 
@@ -17,7 +17,7 @@ export default function Login() {
     setLoading(true);
     try {
       await login(email, password);
-      showToast('Welcome back!', 'success');
+      showToast(isDemoMode ? 'Welcome to StudyMentor AI Demo Mode' : 'Welcome back!', 'success');
       navigate('/dashboard');
     } catch (err) {
       showToast(err.message, 'error');

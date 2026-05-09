@@ -4,9 +4,14 @@ import { useAuth } from '../contexts/AuthContext';
 export default function Upgrade() {
   const [billing, setBilling] = useState('monthly');
   const [loading, setLoading] = useState(false);
-  const { user } = useAuth();
+  const { user, isDemoMode } = useAuth();
 
   const handleUpgrade = async (plan) => {
+    if (isDemoMode) {
+      alert('Demo Mode: billing checkout is disabled. This is a frontend-only demo.');
+      return;
+    }
+
     try {
       setLoading(plan); // Set loading to the specific plan name
       const token = localStorage.getItem('studymentor_token');
