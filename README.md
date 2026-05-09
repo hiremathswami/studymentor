@@ -395,10 +395,6 @@ git push origin feature/amazing-feature
 
 </div>
 
----
-
-## 📄 License
-
 
 ---
 
