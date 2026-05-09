@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hiremathswami/studymentor/main/studymentor-web/public/favicon.svg" alt="StudyMentor Logo" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/hiremathswami/studymentor/main/raw_screens/logo.png" alt="StudyMentor Logo" width="200" />
 
 <br/>
 
