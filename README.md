@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/hiremathswami/studymentor/main/studymentor-web/public/favicon.svg" alt="StudyMentor Logo" width="80" height="80" />
+
+<br/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🎓+StudyMentor+AI;Your+Personal+AI+Study+Coach;Built+with+Claude+API" alt="StudyMentor AI" />
 
 <br/>
@@ -27,6 +31,25 @@
 Most students fail not because they're lazy, but because they have **no structured plan**, **no instant help** when stuck, and **no feedback loop** to know if they actually learned something.
 
 StudyMentor AI fixes all three.
+
+---
+
+## 🎯 Try Live Demo
+
+> **No signup required for the demo!** Experience StudyMentor AI instantly:
+
+### Option 1: Visit the Live App
+👉 **[Click here to access StudyMentor AI](https://studymentor.ai)** - Fully functional demo with all features
+
+### Option 2: Local Development
+Want to run it locally? Follow the [Quick Start](#-quick-start) guide below to set up the entire stack on your machine.
+
+### Demo Features You Can Try:
+- ✅ Create a personalized study plan using AI
+- ✅ Get daily AI-generated tasks
+- ✅ Take assignment quizzes powered by Claude
+- ✅ Test the AI concept explainer
+- ✅ View progress tracking and streaks
 
 ---
 
